@@ -7,7 +7,8 @@ L = instaloader.Instaloader()
 #Login or load session
 print("\n")
 username = input("Input your instagram username: ")
-password = stdiomask.getpass(prompt="Input your instagram password: ", mask="X")
+# password = stdiomask.getpass(prompt="Input your instagram password: ", mask="X")
+password = input("Input your instagram password: ")
 L.login(username, password)  #(login)
 
 print("\n")
